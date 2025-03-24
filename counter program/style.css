@@ -1,0 +1,29 @@
+#main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px; 
+}
+
+#label{
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    padding-bottom: 40px;
+}
+
+#buttons{
+    height: 20px;
+    display: flex;
+    gap: 13px;
+    /* background-color: red; */
+    display: flex;
+}
+
+.button{
+    background-color: aquamarine;
+    font-size: 25px;
+    height: 100px;
+    width: 200px;
+}
