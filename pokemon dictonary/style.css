@@ -1,0 +1,37 @@
+body {
+    margin : 0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#main input {
+    border: none;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+    background-color: white;
+}
+
+#main input::placeholder {
+    font-size: 25px;
+    align-items: center;
+}
+
+#main button {
+    margin-top: 15px ;
+    font-size: 30px;
+}
+
+#main img {
+    height: 400px;
+    width: 400px;
+    
+}
